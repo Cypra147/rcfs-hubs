@@ -1,0 +1,24 @@
+{
+  "name": "rcfs-hubs-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RCFS hubs server-side backend foundation",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.0",
+    "@types/pg": "^8.15.5",
+    "tsx": "^4.19.4",
+    "typescript": "^5.9.2"
+  },
+  "engines": { "node": ">=20" }
+}
